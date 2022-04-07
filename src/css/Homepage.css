@@ -1,0 +1,215 @@
+.homepage {
+    background-color: #000E35;
+    min-height: 100vh;
+    padding-top: 1vw;
+}
+
+.refresh {
+    background-color: #F18926;
+    margin-top: 2vw;
+    padding: 0.6vw 3vw;
+    border-radius: 0.4vw;
+    cursor: pointer;
+    font-weight: 500;
+    text-align: center;
+}
+
+.refresh:hover {
+    background-color: #FFF8F5;
+    color: #000E35;
+}
+
+.loading {
+    color: #FFF8F5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.med-tags {
+    padding-top: 3vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.medicine {
+    width: 25%;
+    margin: 2vw 0.8vw;
+    padding: 1.2vw;
+    position: relative;
+    border-radius: 1vw;
+    background-color: #fff4ee;
+    background-image: url("../assets//background.svg");
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+
+.index {
+    font-size: 1.4vw;
+    font-weight: 500;
+    position: absolute;
+    top: 0;
+    left: 0vw;
+    background-color: #F5A123;
+    padding: 0.1vw 0.6vw;
+    color: #FFF8F5;
+    border-top-left-radius: 0.5vw;
+    border-bottom-right-radius: 0.5vw;
+}
+
+.med-info {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: stretch;
+    gap: 0.9vw;
+}
+
+.manufactured-by {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0.5vw;
+}
+
+.manufactured-by img {
+    width: 1.5vw;
+}
+
+.manufactured-by span {
+    font-size: 1.2w;
+    font-weight: 500;
+}
+
+.med-name {
+    padding-top: 1vw;
+    font-size: 1.8vw;
+    font-weight: 600;
+    text-align: center;
+}
+
+.salt-name {
+    padding: 0.3vw 0.7vw;
+    padding-bottom: 2vw;
+    font-size: 1vw;
+    text-align: center;
+    font-weight: 500;
+}
+
+
+@media (max-width: 500px) {
+    .refresh {
+        margin-top: 3vw;
+        padding: 1vw 5vw;
+        border-radius: 1vw;
+    }
+    .medicine {
+        width: 80%;
+        padding-top: 2vw;
+        padding-bottom: 8vw;
+        padding-right: 2vw;
+    }
+
+    .index {
+        font-size: 3vw;
+        padding: 1vw 2vw;
+    }
+    .manufactured-by {
+        gap: 1vw;
+    }
+
+    .manufactured-by img {
+        width: 5vw;
+    }   
+    .manufactured-by span {
+        font-size: 3vw;
+        text-align: right;
+    }
+    .med-name {
+        font-size: 5vw;
+    }
+    .salt-name {
+        font-size: 3vw;
+    }
+}
+
+.modal {
+    background-color: #F39225;
+    border-radius: 0.6vw;
+    position: fixed;
+    width: 20vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 1vw 1vw;
+    color: #000E35;
+    font-weight: 500;
+    outline: none;
+    z-index: 100;
+    box-shadow: 0 4px 4px 0 rgb(34 45 56 / 8%), 0 2px 2px 0 rgb(34 45 56 / 8%), 0 0 1px 0 rgb(34 45 56 / 24%);
+
+}
+
+.cross img{
+    width: 1.3vw;
+    cursor: pointer;
+}
+
+.toast {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1vw;
+}
+
+.item {
+    text-align: center;
+}
+
+@media (max-width : 500px) {
+    .modal {
+        width: 60vw;
+        padding: 2vw;
+    }
+    .cross img {
+        width: 5vw;
+    }
+}
+
+.header-container {
+    width: 100%;
+}
+
+.header {
+    padding: 1vw;
+    padding-bottom: 0;
+    width: 27vw;
+    margin: auto;
+    background-color: rgba(241, 137, 38, 1);
+    color: #000E35;
+    text-align: center;
+    font-weight: 500;
+    border-radius: 0.7vw;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5vw;
+}
+
+.socials a {
+    text-decoration: none;
+    outline: none;
+}
