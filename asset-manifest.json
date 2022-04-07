@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/MSwasth/static/css/main.62eebdb4.css",
+    "main.js": "/MSwasth/static/js/main.00715ac9.js",
+    "static/media/loader.svg": "/MSwasth/static/media/loader.749716cc2688fd02616ffcbe5e847c23.svg",
+    "static/media/background.svg": "/MSwasth/static/media/background.d13c3941d24beea3827b.svg",
+    "index.html": "/MSwasth/index.html",
+    "main.62eebdb4.css.map": "/MSwasth/static/css/main.62eebdb4.css.map",
+    "main.00715ac9.js.map": "/MSwasth/static/js/main.00715ac9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.62eebdb4.css",
+    "static/js/main.00715ac9.js"
+  ]
+}
