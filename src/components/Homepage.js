@@ -4,9 +4,6 @@ import Hand from "../assets/hand.png"
 import Loading from "../assets/loader.svg"
 import Modal from 'react-modal'
 import Close from "../assets/close.png"
-import linkedin from "../assets/linkedin.png"
-import github from "../assets/github.png"
-
 
 const Homepage = () => {
     const [data, setData] = useState([]);
@@ -64,14 +61,9 @@ const Homepage = () => {
     return (
     <div className='homepage'>
         <div className='header-container'>
-            <div className='header'>
-                Hello, this project is developed by Saumya Dubey
-                <div className='socials'>
-                    Connect with me: 
-                    <a href='https://www.linkedin.com/in/saumya-dubey-1a3002184/' target="_blank" rel="noreferrer"><img src={linkedin} alt=" " /></a>
-                    <a href='https://github.com/saumyadubeyy' target="_blank" rel="noreferrer"><img src={github} alt=" " /></a>
-                </div>
-            </div>
+            <div className='logo'>MSwasth Tech Assignment</div>
+            <div className='hello'>by Saumya Dubey</div>
+            <div className='divider'></div>
         </div>
         {
             data.length === 0 ? 
